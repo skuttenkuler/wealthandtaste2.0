@@ -1,0 +1,19 @@
+.navbar{
+    background-image:linear-gradient(to right,rgb(153,13,37),rgb(153,13,37),rgb(153,13,37),black,black);
+	color: var(--font);
+    box-shadow: 4px 5px 3px black;
+    width: 100%;
+}
+.navLink{
+    color: rgb(255,253,208)
+}
+.navLogo{
+	width: 12vw;
+    min-width: 40px;
+    max-width: 65px;
+}
+@media screen and (min-width:575px) and (max-width:400px){
+	.navLogo {
+		max-width: 1px !important;
+	}
+}
